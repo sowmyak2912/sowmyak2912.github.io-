@@ -1,0 +1,139 @@
+/* General styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.project{
+    max-width: 100px;
+}
+
+/* Buttons */
+.button_inside {
+    padding:5px;
+    background: rgb(0, 11, 17);
+    color: rgb(71, 5, 55);
+    font-size:25px;
+    text-transform: uppercase;
+    font-family:  Arial, Helvetica, sans-serif;
+    }
+    section {
+        padding: 1em 1em;
+    }
+
+body {
+    background: lightskyblue;
+    color: rgb(7, 78, 122);
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size:250%;
+     background-color: black;
+}
+
+/* Intro section  */
+.section__intro {
+    margin-bottom: 15px;
+    font-size:150%;
+}
+@media (min-width: 600px) {
+    .intro {
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        grid-column-gap: 1em;
+        grid-template-areas: 
+            "img title"
+            "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+.section__subtitle--intro {
+    background: grey;
+    font-family: Arial, Helvetica, sans-serif;;
+    padding: 10px 10px;
+    margin-bottom: 25px 50px 75px 100px;
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em);
+}
+.intro__img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    grid-area: img;
+    min-width: 250px;
+    position: relative;
+    z-index: 2;
+
+}
+/*  MY HOBBIES AND MY SKILLS */
+.MY-HOBBIES {
+    background-color: linen;
+    
+    background-size: cover;
+    /* background-blend-mode: multiply; */
+    color:plum;
+    text-align: center;
+}
+.section__title--hobbies {
+    text-shadow: 5px 5px lightgray;
+    color:black;
+    position: relative;
+}
+.MY-SKILLS {
+    background-color: linen;
+    background-size: cover;
+    /* background-blend-mode: multiply; */
+    color:plum;
+    text-align: center;
+}
+.section__title--skills {
+    text-shadow: 5px 5px lightgray;
+    color:black;
+    position: relative;
+}
+/* My Work */
+.section__title {
+    background-color: cornflowerblue;
+    background-image: url(download.jpg);
+    color:black;
+    text-align: center;  
+    text-shadow: 5px 5px lightgray;  
+}
+.PROJECT-TITLE {
+    font-size: 75%;
+    background-image: url(download.jpg);
+    text-align: Serif;
+    background-color: cornflowerblue;
+     overflow: hidden;
+     
+}
+/* footer */
+
+.footer a {
+    background: rgb(3, 0, 0);
+    color:rgb(149, 104, 163);
+    text-align: center;
+    padding: 2.5em 0;
+    font-size: small;
+
+}
+
+
+.social-list {
+    color:lightgreen;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+}
